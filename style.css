@@ -38,7 +38,7 @@
 }
 
 #incompleteTasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item,
@@ -46,7 +46,7 @@
   list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -144,14 +144,14 @@ button.delete img:hover {
 
 /* Edit Task */
 .todo-list .list-item input[type="text"] {
-  display:none
+  display: none
 }
 
 .todo-list .list-item.edit-mode input[type="text"] {
-  display:inline-block;
+  display: inline-block;
   width:224px
 }
 
 .todo-list li.edit-mode .task-label {
-  display:none;
+  display: none;
 }
