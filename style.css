@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .header-info { text-align: center;
+  .header-info {
+    text-align: center;
   }
 }
 .todo-list-wrapper {
@@ -131,6 +132,11 @@ button.delete img:hover {
 }
 
 /* Completed */
+
+#completedTasks {
+  padding-left: 0;
+}
+
 #completedTasks .task-label {
   text-decoration: line-through;
   color: #888;
